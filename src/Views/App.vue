@@ -1,7 +1,9 @@
 <template>
   <div class="relative w-screen">
-    <DefaultHeader></DefaultHeader>
-    <DefaultFooter />
+    <DefaultHeader class="my-auto w-screen"></DefaultHeader>
+    <main class="h-full">
+    </main>
+    <DefaultFooter class="absolute w-screen shadow-black" />
   </div>
 </template>
 
