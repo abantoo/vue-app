@@ -10,7 +10,6 @@
         </a>
         <a href="">
             <img class="hover:animate-bounce" src="../../assets/icons8-instagram.svg" alt="instagram-logo">
-
         </a>
         <a href="https://www.twitter.com/">
           <img class="hover:animate-spin w-full" src="../../assets/icons8-twitter-circled.svg" alt="twitter-logo">
