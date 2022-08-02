@@ -1,5 +1,5 @@
 <template>
-  <div class="flex bg-red-300 shadow-lg min-h-[64px]">
+  <div class="flex bg-transparent shadow-lg min-h-[64px] z-10">
     <div class="mx-auto min-h-[64px] mt-auto flex items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"

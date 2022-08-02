@@ -1,6 +1,6 @@
 <template>
   <div class="flex-col py-2">
-    <div class="flex justify-center border-b border-t border-black py-3 bg-red-200 ">
+    <div class="flex justify-center border-b border-t border-black py-3 bg-red-200">
       <h1 class="text-xl font-bold">Made with <span>❤</span> by Abanto</h1>
     </div>
     <div class="p-2 border-b border-black">
