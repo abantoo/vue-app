@@ -3,7 +3,7 @@
     <div class="flex justify-center border-b border-t border-black py-3 bg-red-200">
       <h1 class="text-xl font-bold">Made with <span>❤</span> by Abanto</h1>
     </div>
-    <div class="p-2 border-b border-black">
+    <div class="pt-3 border-black">
       <div class="flex items-center justify-center">
         <a href="https://www.facebook.com/owheyitsme/">
             <img class="hover:animate-spin" src="../../assets/icons8-facebook-36.svg" alt="facebook-logo">
