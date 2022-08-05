@@ -16,7 +16,7 @@
         </a>
         <a href="">
           <img
-            class="hover:animate-vote-infinite hover:shadow-purple-600 w-[36px] h-[36px] rounded"
+            class="hover:animate-vote-infinite hover:shadow-purple-600 hover:shadow-lg w-[36px] h-[36px] rounded-lg"
             src="../../assets/icons8-instagram.svg"
             alt="instagram-logo"
           />
@@ -30,14 +30,14 @@
         </a>
         <a href="">
           <img
-            class="hover:animate-spin hover:shadow-md hover:shadow-cyan-500 rounded-full w-[36px] h-[36px]"
+            class="hover:animate-spin hover:shadow-md hover:shadow-black rounded-full w-[36px] h-[36px]"
             src="../../assets/icons8-github.svg"
             alt="github"
           />
         </a>
         <a href="">
           <img
-            class="hover:animate-vote-infinite px-1"
+            class="hover:animate-vote-infinite rounded-lg hover:shadow-lg hover:shadow-blue-800"
             src="../../assets/icons8-linkedin.svg"
             alt="linkedin"
           />
