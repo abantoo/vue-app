@@ -4,11 +4,10 @@ import App from "./Views/App.vue";
 import { createPinia } from "pinia";
 import router from "./routes";
 import "flowbite";
-import { createPersistedStatePlugin } from "pinia-plugin-persistedstate-2";
+import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 
 const pinia = createPinia();
 const app = createApp(App);
-const installPersistedStatePlugin = createPersistedStatePlugin();
-pinia.use((context) => installPersistedStatePlugin(context));
+pinia.use(piniaPluginPersistedstate);
 
 app.use(router).use(pinia).mount("#app");

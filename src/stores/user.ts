@@ -51,8 +51,10 @@ export const useUserStore = defineStore({
           this.currentUser.lastname = this.userBank[user].lastname;
           this.currentUser.password = this.userBank[user].password;
           this.messageLogin = `Login Successful, Welcome back ${this.currentUser.firstname}`;
+          return true;
         } else {
           this.messageLogin = `Username / Password didn't match`;
+          return false;
         }
       }
     },
@@ -65,4 +67,5 @@ export const useUserStore = defineStore({
       this.messageLogin = "";
     },
   },
+  persist: true,
 });
