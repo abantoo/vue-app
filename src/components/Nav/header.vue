@@ -2,7 +2,7 @@
   <div class="flex bg-transparent shadow-lg min-h-[64px] z-10 justify-between">
     <div class="mx-auto min-h-[64px] mt-auto flex items-center ml-10">
       <svg
-        class="animate-bounce"
+        class="animate-slow-bounce"
         xmlns="http://www.w3.org/2000/svg"
         width="32"
         height="32"
@@ -89,7 +89,7 @@
       </svg>
     </div>
     <button
-      class="text-lg shadow-sm shadow-black font-medium p-2 m-auto rounded border-2 border-black mr-10 hover:border-slate-600 hover:font-semibold hover:shadow-inner hover:shadow-slate-500 hover:animate-bounce-once"
+      class="text-lg shadow-sm shadow-black font-medium p-2 m-auto rounded border-2 border-black mr-10 hover:border-slate-600 hover:font-semibold hover:shadow-inner hover:shadow-slate-500"
     >
       Join Poka
     </button>
