@@ -7,7 +7,7 @@
         Project
         <span class="inline-block hover:cursor-crosshair">
           <span
-            class="inline-block text-[#A66CFF] hover:text-[#711A75] hover:animate-vote"
+            class="inline-block text-[#A66CFF] hover:text-[#F15412]z hover:animate-vote"
             >P</span
           >
           <span
@@ -15,15 +15,16 @@
             >O</span
           >
           <span
-            class="inline-block text-[#FD5D5D] hover:text-[#FF8080] hover:animate-vote"
+            class="inline-block text-[#FD5D5D] hover:text-[#B2A4FF] hover:animate-vote"
             >K</span
           >
           <span
-            class="inline-block text-[#333C83] hover:text-rose-400 hover:animate-vote"
+            class="inline-block text-[#8879B0] hover:text-rose-400 hover:animate-vote"
             >A</span
           >
         </span>
       </h1>
     </div>
+    <button></button>
   </div>
 </template>

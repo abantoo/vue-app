@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import "./css/tailwind.css";
 import App from "./Views/App.vue";
 import { createPinia } from "pinia";
-import router from "./router";
+import router from "./routes";
 import "flowbite";
 import { createPersistedStatePlugin } from "pinia-plugin-persistedstate-2";
 
