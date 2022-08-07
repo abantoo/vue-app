@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-screen min-h-screen app-div">
     <DefaultHeader class="my-auto w-screen"></DefaultHeader>
-    <LandingPage />
+    <RouterView></RouterView>
     <DefaultFooter class="absolute bottom-0 w-screen shadow-black" />
   </div>
 </template>

@@ -89,9 +89,13 @@
       </svg>
     </div>
     <button
+      @click="router.push('/auth')"
       class="text-lg shadow-sm shadow-black font-medium p-2 m-auto rounded border-2 border-black mr-10 hover:border-slate-600 hover:font-semibold hover:shadow-inner hover:shadow-slate-500"
     >
       Join Poka
     </button>
   </div>
 </template>
+<script lang="ts" setup>
+import router from '../../routes';
+</script>
