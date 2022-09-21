@@ -90,8 +90,24 @@
     </div>
     <button
       class="text-lg shadow-sm shadow-black font-medium p-2 m-auto rounded border-2 border-black mr-10 hover:border-slate-600 hover:font-semibold hover:shadow-inner hover:shadow-slate-500"
+      @click="joinPoka"
     >
       Join Poka
     </button>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+
+const emit = defineEmits<{
+  (e: "openAuth", value: boolean): void;
+}>();
+
+const state = ref(false);
+
+function joinPoka() {
+  emit("openAuth", !state.value);
+  state.value = !state.value;
+}
+</script>
