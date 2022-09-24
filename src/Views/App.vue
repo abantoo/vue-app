@@ -3,9 +3,13 @@
     <DefaultHeader
       class="my-auto w-screen"
       @open-auth="(i) => (joinPoka = i)"
+      :poka-status="joinPoka"
     ></DefaultHeader>
     <LandingPage />
-    <AuthOptions v-if="joinPoka"></AuthOptions>
+    <AuthOptions
+      v-if="joinPoka"
+      @set-close="(i) => (joinPoka = i)"
+    ></AuthOptions>
     <DefaultFooter class="absolute bottom-0 w-screen shadow-black" />
   </div>
 </template>

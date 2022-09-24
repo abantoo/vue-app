@@ -2,29 +2,21 @@
   <div
     class="fixed bg-blue-500 w-full bottom-0 right-0 h-1/2 lg:w-1/3 z-50 py-4 rounded-sm shadow-lg shadow-black"
   >
-    <button class="mx-4">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
+    <button
+      class="mx-4"
+      @mouseover="xmarkHovered = true"
+      @mouseout="xmarkHovered = false"
+      @click="onClose"
+    >
+      <XCircleIcon v-if="!xmarkHovered" class="h-6 w-6 stroke-white" />
+      <XMarkIcon v-if="xmarkHovered" class="h-6 w-6 stroke-red-500 stroke-2" />
     </button>
     <div class="grid justify-center items-center">
       <div class="flex">
         <h2 class="text-lg text-white">Hello there fellow poka</h2>
         <span>
           <svg
-            width="36px"
-            height="36px"
+            class="h-9 w-9 hover:animate-disco"
             version="1.1"
             viewBox="0 0 752 752"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,13 +48,7 @@
           </button>
         </div>
       </div>
-      <div class="flex flex-col">
-        <div v-if="signUpForm" class="flex flex-col">
-          <label for="fname">First Name</label>
-          <input type="text" name="fname" id="fname" placeholder="First Name" />
-          <label for="lname">Last Name</label>
-          <input type="text" name="lname" id="lname" placeholder="Last name" />
-        </div>
+      <div class="flex flex-col mt-4">
         <label for="email">Email</label>
         <input
           type="email"
@@ -70,6 +56,18 @@
           id="email"
           placeholder="poka@fly.com"
         />
+        <div v-if="signUpForm" class="flex flex-col">
+          <label for="fname">First Name</label>
+          <input
+            class="focus:bg-violet-200 focus:outline-double"
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+          />
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" id="lname" placeholder="Last name" />
+        </div>
         <label for="password">password</label>
         <input type="password" placeholder="#######" />
         <button
@@ -84,5 +82,15 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import { XCircleIcon, XMarkIcon } from "@heroicons/vue/24/outline";
+const xmarkHovered = ref(false);
 const signUpForm = ref(false);
+
+const emit = defineEmits<{
+  (e: "setClose", value: boolean): void;
+}>();
+
+function onClose() {
+  emit("setClose", false);
+}
 </script>

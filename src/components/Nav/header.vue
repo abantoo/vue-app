@@ -98,16 +98,22 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { computed } from "vue";
+
+const props = defineProps({
+  pokaStatus: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 const emit = defineEmits<{
   (e: "openAuth", value: boolean): void;
 }>();
 
-const state = ref(false);
+const state = computed(() => props.pokaStatus);
 
 function joinPoka() {
   emit("openAuth", !state.value);
-  state.value = !state.value;
 }
 </script>
