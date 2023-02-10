@@ -1,9 +1,13 @@
 import { createApp } from "vue";
 import "./css/tailwind.css";
 import App from "./Views/App.vue";
-import router from './router'
-import 'flowbite';
+import { createPinia } from "pinia";
+import router from "./routes";
+import "flowbite";
+import piniaPluginPersistedstate from "pinia-plugin-persistedstate"
 
-const app = createApp(App)
+const pinia = createPinia();
+const app = createApp(App);
+pinia.use(piniaPluginPersistedstate);
 
-app.use(router).mount("#app");
+app.use(router).use(pinia).mount("#app");

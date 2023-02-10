@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "flowbite": "^1.5.1",
     "pinia": "^2.0.17",
+    "pinia-plugin-persistedstate": "^2.1.0",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
