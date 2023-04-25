@@ -16,6 +16,8 @@
           >
           <span
             class="inline-block text-[#FD5D5D] hover:text-[#B2A4FF] hover:animate-vote"
+            :class="{'animate-slow-bounce ease-in-out': alpha}"
+            @click="alpha = !alpha"
             >K</span
           >
           <span
@@ -28,3 +30,9 @@
     <button></button>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { ref } from 'vue';
+
+const alpha = ref(false);
+</script>
