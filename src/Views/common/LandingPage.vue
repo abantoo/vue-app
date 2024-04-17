@@ -19,7 +19,7 @@
             >K</span
           >
           <span
-            class="inline-block text-[#8879B0] hover:text-rose-400 hover:animate-vote"
+            class="inline-block text-red-300 hover:text-rose-400 hover:animate-vote"
             >A</span
           >
         </span>
