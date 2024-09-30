@@ -7,7 +7,7 @@
         Project
         <span class="inline-block hover:cursor-crosshair">
           <span
-            class="inline-block text-[#A66CFF] hover:text-[#F15412]z hover:animate-vote"
+            class="inline-block text-[#A66CFF] hover:text-[#F15412] hover:animate-vote"
             >P</span
           >
           <span
