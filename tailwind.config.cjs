@@ -6,6 +6,10 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
+    fontFamily: {
+      payton: ['"Paytone One", "sans-serif"'],
+      "spicy-rice": ['"Spicy Rice", "serif"'],
+    },
     extend: {
       animation: {
         "bounce-once": "bounce 1s",
