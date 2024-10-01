@@ -9,6 +9,7 @@ module.exports = {
     fontFamily: {
       payton: ['"Paytone One", "sans-serif"'],
       "spicy-rice": ['"Spicy Rice", "serif"'],
+      anton: ['"Anton", "sans-serif"'],
     },
     extend: {
       animation: {
