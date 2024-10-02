@@ -10,6 +10,7 @@ module.exports = {
       payton: ['"Paytone One", "sans-serif"'],
       "spicy-rice": ['"Spicy Rice", "serif"'],
       anton: ['"Anton", "sans-serif"'],
+      "sixtyfour-convergence": ['"Sixtyfour Convergence", "sans-serif"'],
     },
     extend: {
       animation: {
