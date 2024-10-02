@@ -11,6 +11,7 @@ module.exports = {
       "spicy-rice": ['"Spicy Rice", "serif"'],
       anton: ['"Anton", "sans-serif"'],
       "sixtyfour-convergence": ['"Sixtyfour Convergence", "sans-serif"'],
+      "archivo-black": ['"Archivo Black", "sans-serif"'],
     },
     extend: {
       animation: {
