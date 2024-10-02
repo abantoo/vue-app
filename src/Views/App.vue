@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-screen min-h-screen app-div font-archivo-black bg-emerald-400">
+  <div class="relative w-screen min-h-screen app-div font-archivo-black bg-emerald-900">
     <DefaultHeader class="my-auto w-screen"></DefaultHeader>
     <RouterView></RouterView>
     <DefaultFooter class="absolute bottom-0 w-screen shadow-black" />
