@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: fix the website color scheme -->
   <div class="relative w-screen min-h-screen app-div font-archivo-black bg-emerald-900">
     <DefaultHeader class="my-auto w-screen"></DefaultHeader>
     <RouterView></RouterView>
