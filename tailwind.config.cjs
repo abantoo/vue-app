@@ -7,11 +7,14 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      payton: ['"Paytone One", "sans-serif"'],
-      "spicy-rice": ['"Spicy Rice", "serif"'],
+      fraunces: ['"Fraunces", "serif"'],
+      "playfair-display": ['"Playfair Display", "serif"'],
+      montserrat: ['"Montserrat", "sans-serif"'],
+      outfit: ['"Outfit", "sans-serif"'],
+      roboto: ['"Roboto", "sans-serif"'],
+      inter: ['"Inter", sans-serif"'],
       anton: ['"Anton", "sans-serif"'],
-      "sixtyfour-convergence": ['"Sixtyfour Convergence", "sans-serif"'],
-      "archivo-black": ['"Archivo Black", "sans-serif"'],
+      poppins: ['"Poppins", "sans-serif"'],
     },
     extend: {
       animation: {
