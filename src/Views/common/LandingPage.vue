@@ -1,7 +1,7 @@
 <template>
   <div class="flex app-div">
     <div class="absolute top-[20vh] m-4 p-4">
-      <h1 class="text-9xl tracking-widest leading-snug text-white font-bold">
+      <h1 class="text-9xl text-white font-extrabold font-roboto">
         Welcome <br />
         To <br />
         Project
