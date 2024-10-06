@@ -184,7 +184,7 @@
     </div>
     <button
       @click="router.push('/auth')"
-      class="text-lg shadow-sm shadow-black text-lime-500 hover:text-black font-medium p-2 m-auto rounded border-2 hover:bg-lime-500 border-black mr-10 hover:border-slate-600 hover:font-semibold hover:shadow-sm hover:shadow-slate-500"
+      class="text-2xl text-violet-100 transition-all hover:text-purple-500 font-medium p-2 m-auto mr-10"
     >
       Join Poka
     </button>
