@@ -1,6 +1,6 @@
 <template>
   <!-- TODO: fix the website color scheme -->
-  <div class="relative w-screen min-h-screen app-div font-anton bg-black">
+  <div class="relative w-screen min-h-screen app-div bg-black">
     <DefaultHeader class="my-auto w-screen"></DefaultHeader>
     <RouterView></RouterView>
     <DefaultFooter class="absolute bottom-0 w-screen shadow-black" />
